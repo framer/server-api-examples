@@ -22,7 +22,9 @@
         "enabled": true,
         "rules": {
             "recommended": true,
-            "useLiteralKeys": "off"
+            "complexity": {
+                "useLiteralKeys": "off"
+            }
         }
     },
     "javascript": {
