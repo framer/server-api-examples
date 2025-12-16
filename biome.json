@@ -21,7 +21,8 @@
     "linter": {
         "enabled": true,
         "rules": {
-            "recommended": true
+            "recommended": true,
+            "useLiteralKeys": "off"
         }
     },
     "javascript": {
