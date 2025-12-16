@@ -1,1 +1,1 @@
-const n: number = "1";
+const _n: string = "1";
