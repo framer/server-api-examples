@@ -1,0 +1,12 @@
+{
+  "name": "csv-importer",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "typescript": "^5.9.3"
+  }
+}
