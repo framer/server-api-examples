@@ -1,15 +1,16 @@
 {
-  "name": "framer-server-api-examples",
-  "private": true,
-  "workspaces": [
-    "examples/*"
-  ],
-  "devDependencies": {
-    "@biomejs/biome": "2.3.9"
-  },
-  "scripts": {
-    "format": "biome format --write",
-    "lint": "biome lint --write",
-    "check": "biome check"
-  }
+    "name": "framer-server-api-examples",
+    "private": true,
+    "workspaces": [
+        "examples/*"
+    ],
+    "devDependencies": {
+        "@biomejs/biome": "2.3.9"
+    },
+    "scripts": {
+        "format": "biome format --write",
+        "lint": "biome lint --write",
+        "check": "biome check",
+        "typecheck": "npm run typecheck --workspaces"
+    }
 }

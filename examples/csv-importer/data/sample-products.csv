@@ -1,0 +1,9 @@
+slug,title,description,price,inStock,category
+wireless-mouse,Wireless Mouse,Ergonomic wireless mouse with precision tracking,29.99,true,Electronics
+mechanical-keyboard,Mechanical Keyboard,RGB mechanical keyboard with cherry switches,89.99,true,Electronics
+usb-c-cable,USB-C Cable,Fast charging USB-C cable 6ft length,12.99,false,Accessories
+monitor-stand,Monitor Stand,Adjustable aluminum monitor stand,49.99,true,Furniture
+desk-lamp,LED Desk Lamp,Dimmable LED lamp with USB charging port,34.99,true,Lighting
+webcam-hd,HD Webcam,1080p webcam with built-in microphone,59.99,true,Electronics
+mouse-pad,Large Mouse Pad,Extended gaming mouse pad with stitched edges,19.99,true,Accessories
+headphone-stand,Headphone Stand,Wooden headphone stand with cable holder,24.99,false,Furniture
