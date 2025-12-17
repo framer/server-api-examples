@@ -6,5 +6,5 @@ dist/
 
 .env
 .env.*
+.dev.vars
 !.env.example
-
