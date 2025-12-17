@@ -6,7 +6,7 @@ on:
   pull_request:
 
 jobs:
-  lint:
+  check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
@@ -16,18 +16,12 @@ jobs:
           node-version: 24
           cache: npm
 
-      - run: npm ci
-      - run: npm run check
-
-  typecheck:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v6
-
-      - uses: actions/setup-node@v6
-        with:
-          node-version: 24
-          cache: npm
+      - name: Setup env files for type generation
+        run: |
+          for dir in examples/*/; do
+            [ -f "$dir/.env.example" ] && cp "$dir/.env.example" "$dir/.env"
+          done
 
       - run: npm ci
+      - run: npm run lint:check
       - run: npm run typecheck
