@@ -1,0 +1,16 @@
+{
+    "name": "publish",
+    "version": "0.0.1",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "typecheck": "tsc --noEmit"
+    },
+    "dependencies": {
+        "framer-api": "^0.0.1-beta.0",
+        "typescript": "^5.9.3"
+    },
+    "devDependencies": {
+        "@types/node": "^22.10.2"
+    }
+}
