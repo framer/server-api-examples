@@ -7,7 +7,7 @@
         "typecheck": "tsc --noEmit"
     },
     "dependencies": {
-        "framer-api": "^0.0.1-beta.0",
+        "framer-api": "^0.0.1-beta.1",
         "papaparse": "^5.5.3",
         "typescript": "^5.9.3"
     },
