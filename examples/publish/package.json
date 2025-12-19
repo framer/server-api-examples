@@ -1,16 +1,13 @@
 {
-    "name": "json-api",
+    "name": "publish",
     "version": "0.0.1",
     "private": true,
     "type": "module",
     "scripts": {
-        "dev": "node --watch src/index.ts",
         "typecheck": "tsc --noEmit"
     },
     "dependencies": {
-        "@hono/node-server": "^1.14.1",
         "framer-api": "^0.0.1-beta.1",
-        "hono": "^4.7.10",
         "typescript": "^5.9.3"
     },
     "devDependencies": {
