@@ -1,0 +1,20 @@
+# Cloudflare Workers
+.wrangler/
+worker-configuration.d.ts
+
+# Lock files
+package-lock.json
+bun.lock
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+logs
+*.log
+
+# Build output
+dist/
+build/
+.out/
+.cache/
+.next/
