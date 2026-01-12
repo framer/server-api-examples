@@ -1,0 +1,24 @@
+{
+    "name": "notion-framer-sync",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "deploy": "wrangler deploy",
+        "dev": "wrangler dev",
+        "start": "wrangler dev",
+        "cf-typegen": "wrangler types",
+        "postinstall": "wrangler types",
+        "setup": "node --experimental-strip-types scripts/setup.ts",
+        "typecheck": "tsc --noEmit -p scripts && tsc --noEmit"
+    },
+    "dependencies": {
+        "@notionhq/client": "^5.6.0",
+        "framer-api": "beta"
+    },
+    "devDependencies": {
+        "@types/node": "^24.10.0",
+        "typescript": "^5.5.2",
+        "wrangler": "4.57.0"
+    }
+}
