@@ -1,6 +1,15 @@
-# Framer Server API Examples
+<h1 align="center" margin="0">
+    <img width="200" src="https://misc.framerstatic.com/framer-api/package-logo.svg">
+</h1>
+<h3 align="center" style="margin: 0;">
+Framer Server API Examples
+</h3>
 
-This repository contains examples for the Framer Server API. Each example is a standalone project that can be run independently.
+<br>
+
+![plugins](https://misc.framerstatic.com/hunter/plugin-asset.png)
+
+This repository contains [examples](./examples) for the Framer Server API. Each example is a standalone project that can be run independently.
 
 ## How to run examples
 
@@ -32,3 +41,15 @@ You can also use the environment variable `FRAMER_API_KEY` to set the API key an
 ```ts
 using framer = await connect(projectUrl);
 ```
+
+## Documentation
+
+- [Introduction](https://www.framer.com/developers/server-api-introduction)
+- [Quick Start](https://www.framer.com/developers/server-api-quick-start)
+- [Reference](https://www.framer.com/developers/server-api-reference)
+- [FAQ](https://www.framer.com/developers/server-api-faq)
+- [framer-api on npm](https://www.npmjs.com/package/framer-api)
+
+## Feedback
+
+Have questions or feedback? Email us at <server-api-feedback@framer.com>
