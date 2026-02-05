@@ -1,13 +1,10 @@
-<h1 align="center" margin="0">
-    <img width="200" src="https://misc.framerstatic.com/framer-api/package-logo.svg">
-</h1>
 <h3 align="center" style="margin: 0;">
 Framer Server API Examples
 </h3>
 
 <br>
 
-<img width="1600" height="900" alt="server-api-header" src="https://github.com/user-attachments/assets/2420bf96-0ff6-4af7-8d9e-f94b3f1d8ce9" />
+![server-api](https://misc.framerstatic.com/framer-api/server-api-header.png)
 
 This repository contains [examples](./examples) for the Framer Server API. Each example is a standalone project that can be run independently.
 
