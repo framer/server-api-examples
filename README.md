@@ -7,7 +7,7 @@ Framer Server API Examples
 
 <br>
 
-![plugins](https://misc.framerstatic.com/hunter/plugin-asset.png)
+<img width="1600" height="900" alt="server-api-header" src="https://github.com/user-attachments/assets/2420bf96-0ff6-4af7-8d9e-f94b3f1d8ce9" />
 
 This repository contains [examples](./examples) for the Framer Server API. Each example is a standalone project that can be run independently.
 
