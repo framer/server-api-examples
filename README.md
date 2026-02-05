@@ -1,3 +1,11 @@
+<h1 align="center" margin="0">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://misc.framerstatic.com/framer-api/package-logo-light.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://misc.framerstatic.com/framer-api/package-logo.svg">
+    <img alt="Framer Server API" src="https://misc.framerstatic.com/framer-api/package-logo.svg" width="200">
+  </picture>
+</h1>
+<br>
 <h3 align="center" style="margin: 0;">
 Framer Server API Examples
 </h3>
