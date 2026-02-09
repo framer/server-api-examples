@@ -27,8 +27,14 @@ for (const [type, paths] of entries) {
 const { deployment } = await framer.publish();
 console.log(`🚀 Published deployment ${deployment.id}`);
 
-const deployedHostnames = await framer.deploy(deployment.id);
-console.log(`✅ Deployed to:`);
-for (const hostname of deployedHostnames) {
-    console.log(`   https://${hostname.hostname}`);
+// Deploy to custom domains
+const deployed = await framer.deploy(deployment.id);
+
+if (deployed.length > 0) {
+    console.log(`✅ Deployed to ${deployed.length} custom domain(s):`);
+    for (const hostname of deployed) {
+        console.log(`   https://${hostname.hostname}`);
+    }
+} else {
+    console.log("No custom domains to deploy — default hostname is already live.");
 }
