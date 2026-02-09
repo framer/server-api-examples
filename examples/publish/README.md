@@ -5,11 +5,11 @@ Publishes and deploys a Framer project. Designed to run as a one-shot script, ma
 ## Usage
 
 ```bash
-node --env-file=../../.env index.ts
+node --env-file=../../.env publish.ts
 
-bun --env-file=../../.env run index.ts
+bun --env-file=../../.env run publish.ts
 
-deno --env-file=../../.env run index.ts
+deno --env-file=../../.env run publish.ts
 ```
 
 ## Environment Variables
@@ -29,7 +29,7 @@ Publish every 4 hours:
 crontab -e
 
 # Add this line (adjust paths as needed)
-0 */4 * * * cd /path/to/examples/publish && node --env-file=../../.env index.ts >> /var/log/framer-publish.log 2>&1
+0 */4 * * * cd /path/to/examples/publish && node --env-file=../../.env publish.ts >> /var/log/framer-publish.log 2>&1
 ```
 
 Common cron schedules:
