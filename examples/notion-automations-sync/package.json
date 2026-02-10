@@ -14,7 +14,7 @@
     },
     "dependencies": {
         "@notionhq/client": "^5.6.0",
-        "framer-api": "beta"
+        "framer-api": "0.1.1"
     },
     "devDependencies": {
         "@types/node": "^24.10.0",
