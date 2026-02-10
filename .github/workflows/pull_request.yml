@@ -19,7 +19,9 @@ jobs:
       - name: Setup env files for type generation
         run: |
           for dir in examples/*/; do
-            [ -f "$dir/.env.example" ] && cp "$dir/.env.example" "$dir/.env"
+            if [ -f "$dir/.env.example" ]; then
+              cp "$dir/.env.example" "$dir/.env"
+            fi
           done
 
       - run: npm ci
