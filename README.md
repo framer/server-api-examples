@@ -12,7 +12,7 @@ Framer Server API Examples
 
 <br>
 
-![server-api](https://misc.framerstatic.com/framer-api/server-api-header.png)
+![server-api](https://misc.framerstatic.com/framer-api/server-api-header.png?v1)
 
 This repository contains [examples](./examples) for the Framer Server API. Each example is a standalone project that can be run independently.
 
